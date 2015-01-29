@@ -1,0 +1,48 @@
+@import url("banner.css");
+@import url("footer.css");
+
+h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 900;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2C3E50;
+  background-color: white;
+  font-weight: 100;
+  font-size: 13pt;
+}
+
+.shadowed {
+    text-shadow: 0px 0px 15px black ;
+}
+
+.features {
+  background-color: #ECF0F1;
+  padding:100px;
+}
+.features p {
+  font-weight: 00;
+  padding-top: 20px;
+}
+.link:hover {
+  color: #3498DB
+}
+
+.email {
+  padding: 100px;
+}
+
+.btn-default {
+  border: none;
+  margin: 10px;
+  background-color: #3498DB;
+  color: white;
+}
+
+.btn-default:hover {
+  border: none;
+  background-color: #2980B9;
+  color: white;
+}
